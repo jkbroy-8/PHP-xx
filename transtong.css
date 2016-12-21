@@ -1,0 +1,30 @@
+.star-ao {
+    width: 500px;
+    height: 300px;
+    position: relative;
+}
+.star-ao  span{
+    position: relative;
+    display: block;
+    margin-top: 0;
+    float: left;
+}
+.star-ao  ul{
+    position: relative;
+    list-style: none;
+    display: inline-block;
+    padding: 0;
+    height: 20px;
+    margin-top: 0;
+
+}
+.star-ao  ul li{
+    float: left;
+    background:url("../star/images/star.png") no-repeat ;
+    width: 24px;
+}
+.on{background-position: 0 -28px;}
+.star-ao  ul li a{
+    padding: 0 10px;
+}
+.d{width: 200px;height: 200px;/*background-color: red;*/}
